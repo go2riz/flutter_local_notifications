@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 34
-    namespace 'com.twbt.flutterlocalnotifications'
+    namespace "com.dexterous.flutterlocalnotifications"
 
     defaultConfig {
         minSdkVersion 16
