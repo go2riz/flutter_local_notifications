@@ -164,14 +164,6 @@ public class FlutterLocalNotificationsPlugin
   private PermissionRequestListener callback;
   private boolean permissionRequestInProgress = false;
 
-  @SuppressWarnings("deprecation")
-  public static void registerWith(io.flutter.plugin.common.PluginRegistry.Registrar registrar) {
-    FlutterLocalNotificationsPlugin plugin = new FlutterLocalNotificationsPlugin();
-    plugin.setActivity(registrar.activity());
-    registrar.addNewIntentListener(plugin);
-    registrar.addRequestPermissionsResultListener(plugin);
-    plugin.onAttachedToEngine(registrar.context(), registrar.messenger());
-  }
 
   static void rescheduleNotifications(Context context) {
     initAndroidThreeTen(context);

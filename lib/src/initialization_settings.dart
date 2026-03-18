@@ -1,4 +1,4 @@
-import 'package:flutter_local_notifications_linux/flutter_local_notifications_linux.dart';
+import 'linux_stub.dart';
 
 import 'platform_specifics/android/initialization_settings.dart';
 import 'platform_specifics/ios/initialization_settings.dart';

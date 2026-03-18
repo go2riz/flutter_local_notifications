@@ -1,4 +1,4 @@
-export 'package:flutter_local_notifications_linux/flutter_local_notifications_linux.dart';
+export 'src/linux_stub.dart';
 export 'package:flutter_local_notifications_platform_interface/flutter_local_notifications_platform_interface.dart'
     show
         SelectNotificationCallback,
